@@ -1,0 +1,10 @@
+[package]
+name = "playground-rust-hyper"
+version = "1.0.0"
+
+[[bin]]
+name = "start"
+path = "main.rs"
+
+[dependencies]
+hyper="0.7.1"
