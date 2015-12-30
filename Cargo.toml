@@ -2,9 +2,14 @@
 name = "playground-rust-hyper"
 version = "1.0.0"
 
+[lib]
+name = "server"
+path = "main.rs"
+
 [[bin]]
 name = "start"
-path = "main.rs"
+path = "bin.rs"
 
 [dependencies]
 hyper="0.7.1"
+getopts="0.2.14"

@@ -2,6 +2,7 @@
 name = "playground-rust-hyper"
 version = "1.0.0"
 dependencies = [
+ "getopts 0.2.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -46,6 +47,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "winapi 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "getopts"
+version = "0.2.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "hpack"
