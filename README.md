@@ -1,4 +1,4 @@
-# playgroun-rust-hyper
+# playground-rust-hyper
 Playing around with `rust` and the [hyper][1] HTTP library.
 
 ## License
