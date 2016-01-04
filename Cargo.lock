@@ -4,6 +4,7 @@ version = "1.0.0"
 dependencies = [
  "getopts 0.2.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 0.6.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

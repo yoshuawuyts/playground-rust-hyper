@@ -13,3 +13,4 @@ path = "bin.rs"
 [dependencies]
 hyper="0.7.1"
 getopts="0.2.14"
+serde="0.6.7"
